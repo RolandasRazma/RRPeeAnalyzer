@@ -46,7 +46,7 @@ Not bad but lighting is very uneven. Even if I would be able to compensate for t
 I had backlit LED laying around so decided to add it to check if lighting conditions will improove so I wouldn't need to use iPhone flash.
 
 <img src="Images/backlit_led.jpg" width="50%"><img src="Images/backlit_led_mounted.jpg" width="50%">
-<img src="Images/battery.jpg" width="30%"><img src="Images/battery_fix.jpg" width="30%"><img src="Images/backlit_led_mounted_top.jpg" width="30%">
+<img src="Images/battery.jpg" width="33%"><img src="Images/battery_fix.jpg" width="33%"><img src="Images/backlit_led_mounted_top.jpg" width="33%">
 
 Because some light was leaking from gap above iphone I decided to cover it up also to get more even lighting. 
 And here you go... DIY Urine Analyzer!
@@ -67,4 +67,3 @@ not bad, but it feals like it still lacks some light. Black colored walls absorb
 
 ### The Software
 to be continued...
-
