@@ -63,7 +63,7 @@ First test result over time (multiple shots combined in one)
 
 not bad, but it feals like it still lacks some light. Black colored walls absorb light so we need to make them either white or reflective. And what can be simplier than using some backing foil!
 
-<img src="Images/foil.jpg" width="33%"><img src="Images/foil2.jpg" width="33%"><img src="Images/foil3.jpg" width="33%">
+<img src="Images/foil.jpg" width="33%"><img src="Images/foil2.jpg" width="33%"><img src="Images/foil3.jpg" width="33%"><img src="Images/foil4.jpg" width="100%">
 
 ### The Software
 to be continued...
