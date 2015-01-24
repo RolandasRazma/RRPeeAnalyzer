@@ -53,7 +53,7 @@ And here you go... DIY Urine Analyzer!
 
 <img src="Images/done.jpg" width="50%"><img src="Images/done_on.jpg" width="50%">
 
-Some testing action! (grose parts redacted).
+Some testing action! (gross parts redacted).
 
 <img src="Images/done_go.jpg" width="100%">
 
