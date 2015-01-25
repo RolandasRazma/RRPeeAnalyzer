@@ -71,3 +71,6 @@ Second test result over time (multiple shots combined in one)
 
 ### The Software
 to be continued...
+
+### Samples
+if you for some reason you interested in samples you can find them at <a href="Images/Samples/">/Images/Samples/</a>. Every directory is new test, and file are named with time offset.
