@@ -70,6 +70,10 @@ Second test result over time (multiple shots combined in one)
 <img src="Images/test1.jpg" width="100%">
 
 ### The Software
+So how do we go from photo of test strip to values of Leukocytes, Nitrite, Urobilinogen, Protein, pH, Blood, Specific gravity, Ketones, Bilirubin and Glucose?
+
+<img src="Images/RRCaptureSessionStillColorCompare.jpg" width="100%">
+
 to be continued...
 
 ### Samples
