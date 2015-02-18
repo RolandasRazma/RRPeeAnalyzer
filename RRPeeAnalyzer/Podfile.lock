@@ -1,0 +1,16 @@
+PODS:
+  - Colours (5.5.0)
+  - FPPopover (1.4.1)
+  - OpenCV (2.4.10)
+
+DEPENDENCIES:
+  - Colours
+  - FPPopover
+  - OpenCV
+
+SPEC CHECKSUMS:
+  Colours: 7abeb0fdebe2da3d8bd7305aee0798375f51f5d8
+  FPPopover: bbfc452ec8949a2c2f555cf2d8c7236e621811f0
+  OpenCV: 72eac5996eb756bf59b792acb75cb7103f530a19
+
+COCOAPODS: 0.36.0.beta.1

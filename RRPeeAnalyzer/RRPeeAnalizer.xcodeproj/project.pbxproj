@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224B46A8CBC930D5A548A39D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92805B7926334DFC211BF5F5 /* libPods.a */; };
+		BE6E885177FC1822B596ACEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92805B7926334DFC211BF5F5 /* libPods.a */; };
+		F011849F1A73B7770027BAF7 /* RRCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F011849E1A73B7770027BAF7 /* RRCaptureSession.m */; };
+		F0320CE51A7FCACA008249E9 /* RRCaptureSessionStill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0C6BBE41A75A3A500800296 /* RRCaptureSessionStill.jpg */; };
+		F0567CA41A6D5B57002BA2E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0567CA31A6D5B57002BA2E9 /* main.m */; };
+		F0567CBE1A6D5B57002BA2E9 /* RRPeeAnalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0567CBD1A6D5B57002BA2E9 /* RRPeeAnalizerTests.m */; };
+		F0658F171A84FAF40051D50D /* RRStripSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0658F161A84FAF40051D50D /* RRStripSetupViewController.m */; };
+		F069CB2F1A6FF7D5000CCE72 /* RRCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F069CB231A6FF7D5000CCE72 /* RRCaptureViewController.m */; };
+		F069CB301A6FF7D5000CCE72 /* RRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F069CB261A6FF7D5000CCE72 /* RRAppDelegate.m */; };
+		F069CB311A6FF7D5000CCE72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F069CB291A6FF7D5000CCE72 /* LaunchScreen.xib */; };
+		F069CB321A6FF7D5000CCE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F069CB2B1A6FF7D5000CCE72 /* Main.storyboard */; };
+		F069CB331A6FF7D5000CCE72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F069CB2D1A6FF7D5000CCE72 /* Images.xcassets */; };
+		F07701381A88BFD000AD9156 /* UIImage+NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F077012F1A88BFD000AD9156 /* UIImage+NSStringAdditions.m */; };
+		F07701391A88BFD000AD9156 /* UIImage+OpenCVAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = F07701311A88BFD000AD9156 /* UIImage+OpenCVAdditions.mm */; };
+		F077013A1A88BFD000AD9156 /* UIImage+RRDrawingAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F07701331A88BFD000AD9156 /* UIImage+RRDrawingAddition.m */; };
+		F077013B1A88BFD000AD9156 /* UIImage+RRTransformsAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F07701351A88BFD000AD9156 /* UIImage+RRTransformsAdditions.m */; };
+		F077013C1A88BFD000AD9156 /* UIImage+UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F07701371A88BFD000AD9156 /* UIImage+UIColorAdditions.m */; };
+		F07701411A88C13A00AD9156 /* RRCVAdditions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F077013F1A88C13A00AD9156 /* RRCVAdditions.cpp */; };
+		F07701421A88C13A00AD9156 /* RRCVAdditions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F077013F1A88C13A00AD9156 /* RRCVAdditions.cpp */; };
+		F09C71271A949E5600D1EDD8 /* DUS10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09C71251A949E5600D1EDD8 /* DUS10.jpg */; };
+		F09C71281A949E5600D1EDD8 /* DUS10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09C71251A949E5600D1EDD8 /* DUS10.jpg */; };
+		F09C71291A949E5600D1EDD8 /* DUS10.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09C71261A949E5600D1EDD8 /* DUS10.plist */; };
+		F09C712A1A949E5600D1EDD8 /* DUS10.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09C71261A949E5600D1EDD8 /* DUS10.plist */; };
+		F0A79A4E1A877A0800637F23 /* RRStripAnalyzer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0A79A4B1A877A0800637F23 /* RRStripAnalyzer.mm */; };
+		F0A79A4F1A877A0800637F23 /* RRStripAnalyzerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A79A4D1A877A0800637F23 /* RRStripAnalyzerTest.m */; };
+		F0AF0EA01A86DE9D0059883D /* RRTestColorSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF0E9F1A86DE9D0059883D /* RRTestColorSetupViewController.m */; };
+		F0C6BBE51A75A3A500800296 /* RRCaptureSessionStill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0C6BBE41A75A3A500800296 /* RRCaptureSessionStill.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0567CB81A6D5B57002BA2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0567C961A6D5B57002BA2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0567C9D1A6D5B57002BA2E9;
+			remoteInfo = RRPeeAnalizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1915FBDB2AFB7494F7AC8E05 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		92805B7926334DFC211BF5F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07FF7EF3FD2AAE62342AA1C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F011849D1A73B7770027BAF7 /* RRCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCaptureSession.h; sourceTree = "<group>"; };
+		F011849E1A73B7770027BAF7 /* RRCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRCaptureSession.m; sourceTree = "<group>"; };
+		F0567C9E1A6D5B57002BA2E9 /* RRPeeAnalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRPeeAnalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0567CA31A6D5B57002BA2E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0567CB71A6D5B57002BA2E9 /* RRPeeAnalizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRPeeAnalizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0567CBC1A6D5B57002BA2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0567CBD1A6D5B57002BA2E9 /* RRPeeAnalizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRPeeAnalizerTests.m; sourceTree = "<group>"; };
+		F0658F151A84FAF40051D50D /* RRStripSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRStripSetupViewController.h; sourceTree = "<group>"; };
+		F0658F161A84FAF40051D50D /* RRStripSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRStripSetupViewController.m; sourceTree = "<group>"; };
+		F069CB221A6FF7D5000CCE72 /* RRCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCaptureViewController.h; sourceTree = "<group>"; };
+		F069CB231A6FF7D5000CCE72 /* RRCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRCaptureViewController.m; sourceTree = "<group>"; };
+		F069CB251A6FF7D5000CCE72 /* RRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppDelegate.h; sourceTree = "<group>"; };
+		F069CB261A6FF7D5000CCE72 /* RRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppDelegate.m; sourceTree = "<group>"; };
+		F069CB2A1A6FF7D5000CCE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F069CB2C1A6FF7D5000CCE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F069CB2D1A6FF7D5000CCE72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F069CB2E1A6FF7D5000CCE72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F077012E1A88BFD000AD9156 /* UIImage+NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NSStringAdditions.h"; sourceTree = "<group>"; };
+		F077012F1A88BFD000AD9156 /* UIImage+NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NSStringAdditions.m"; sourceTree = "<group>"; };
+		F07701301A88BFD000AD9156 /* UIImage+OpenCVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCVAdditions.h"; sourceTree = "<group>"; };
+		F07701311A88BFD000AD9156 /* UIImage+OpenCVAdditions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCVAdditions.mm"; sourceTree = "<group>"; };
+		F07701321A88BFD000AD9156 /* UIImage+RRDrawingAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RRDrawingAddition.h"; sourceTree = "<group>"; };
+		F07701331A88BFD000AD9156 /* UIImage+RRDrawingAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RRDrawingAddition.m"; sourceTree = "<group>"; };
+		F07701341A88BFD000AD9156 /* UIImage+RRTransformsAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RRTransformsAdditions.h"; sourceTree = "<group>"; };
+		F07701351A88BFD000AD9156 /* UIImage+RRTransformsAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RRTransformsAdditions.m"; sourceTree = "<group>"; };
+		F07701361A88BFD000AD9156 /* UIImage+UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColorAdditions.h"; sourceTree = "<group>"; };
+		F07701371A88BFD000AD9156 /* UIImage+UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColorAdditions.m"; sourceTree = "<group>"; };
+		F077013F1A88C13A00AD9156 /* RRCVAdditions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RRCVAdditions.cpp; sourceTree = "<group>"; };
+		F07701401A88C13A00AD9156 /* RRCVAdditions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RRCVAdditions.hpp; sourceTree = "<group>"; };
+		F09C71251A949E5600D1EDD8 /* DUS10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DUS10.jpg; sourceTree = "<group>"; };
+		F09C71261A949E5600D1EDD8 /* DUS10.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DUS10.plist; sourceTree = "<group>"; };
+		F0A79A4A1A877A0800637F23 /* RRStripAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRStripAnalyzer.h; sourceTree = "<group>"; };
+		F0A79A4B1A877A0800637F23 /* RRStripAnalyzer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RRStripAnalyzer.mm; sourceTree = "<group>"; };
+		F0A79A4C1A877A0800637F23 /* RRStripAnalyzerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRStripAnalyzerTest.h; sourceTree = "<group>"; };
+		F0A79A4D1A877A0800637F23 /* RRStripAnalyzerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRStripAnalyzerTest.m; sourceTree = "<group>"; };
+		F0AF0E9E1A86DE9D0059883D /* RRTestColorSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTestColorSetupViewController.h; sourceTree = "<group>"; };
+		F0AF0E9F1A86DE9D0059883D /* RRTestColorSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTestColorSetupViewController.m; sourceTree = "<group>"; };
+		F0C6BBE41A75A3A500800296 /* RRCaptureSessionStill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RRCaptureSessionStill.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0567C9B1A6D5B57002BA2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6E885177FC1822B596ACEC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0567CB41A6D5B57002BA2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B46A8CBC930D5A548A39D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736E8863C621C1BC1143B864 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92805B7926334DFC211BF5F5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C9B04D8987CCF58B57E20EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1915FBDB2AFB7494F7AC8E05 /* Pods.debug.xcconfig */,
+				A07FF7EF3FD2AAE62342AA1C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0567C951A6D5B57002BA2E9 = {
+			isa = PBXGroup;
+			children = (
+				F0567CA01A6D5B57002BA2E9 /* RRPeeAnalizer */,
+				F0567CBA1A6D5B57002BA2E9 /* RRPeeAnalizerTests */,
+				F0567C9F1A6D5B57002BA2E9 /* Products */,
+				8C9B04D8987CCF58B57E20EB /* Pods */,
+				736E8863C621C1BC1143B864 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0567C9F1A6D5B57002BA2E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0567C9E1A6D5B57002BA2E9 /* RRPeeAnalizer.app */,
+				F0567CB71A6D5B57002BA2E9 /* RRPeeAnalizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0567CA01A6D5B57002BA2E9 /* RRPeeAnalizer */ = {
+			isa = PBXGroup;
+			children = (
+				F069CB201A6FF7D5000CCE72 /* Classes */,
+				F069CB281A6FF7D5000CCE72 /* Resources */,
+				F0567CA11A6D5B57002BA2E9 /* Supporting Files */,
+			);
+			path = RRPeeAnalizer;
+			sourceTree = "<group>";
+		};
+		F0567CA11A6D5B57002BA2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0567CA31A6D5B57002BA2E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0567CBA1A6D5B57002BA2E9 /* RRPeeAnalizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0567CBD1A6D5B57002BA2E9 /* RRPeeAnalizerTests.m */,
+				F0567CBB1A6D5B57002BA2E9 /* Supporting Files */,
+			);
+			path = RRPeeAnalizerTests;
+			sourceTree = "<group>";
+		};
+		F0567CBB1A6D5B57002BA2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0567CBC1A6D5B57002BA2E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F069CB201A6FF7D5000CCE72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F069CB351A6FF89E000CCE72 /* Support */,
+				F069CB241A6FF7D5000CCE72 /* Model */,
+				F069CB271A6FF7D5000CCE72 /* View */,
+				F069CB211A6FF7D5000CCE72 /* Controller */,
+				F069CB251A6FF7D5000CCE72 /* RRAppDelegate.h */,
+				F069CB261A6FF7D5000CCE72 /* RRAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F069CB211A6FF7D5000CCE72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F069CB221A6FF7D5000CCE72 /* RRCaptureViewController.h */,
+				F069CB231A6FF7D5000CCE72 /* RRCaptureViewController.m */,
+				F0658F151A84FAF40051D50D /* RRStripSetupViewController.h */,
+				F0658F161A84FAF40051D50D /* RRStripSetupViewController.m */,
+				F0AF0E9E1A86DE9D0059883D /* RRTestColorSetupViewController.h */,
+				F0AF0E9F1A86DE9D0059883D /* RRTestColorSetupViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F069CB241A6FF7D5000CCE72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F011849D1A73B7770027BAF7 /* RRCaptureSession.h */,
+				F011849E1A73B7770027BAF7 /* RRCaptureSession.m */,
+				F0A79A491A877A0800637F23 /* RRStripAnalyzer */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F069CB271A6FF7D5000CCE72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F069CB281A6FF7D5000CCE72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F09C71241A949E5600D1EDD8 /* DUS10 */,
+				F0C6BBE41A75A3A500800296 /* RRCaptureSessionStill.jpg */,
+				F069CB291A6FF7D5000CCE72 /* LaunchScreen.xib */,
+				F069CB2B1A6FF7D5000CCE72 /* Main.storyboard */,
+				F069CB2D1A6FF7D5000CCE72 /* Images.xcassets */,
+				F069CB2E1A6FF7D5000CCE72 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F069CB351A6FF89E000CCE72 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F077012D1A88BFD000AD9156 /* UIImage Additions */,
+				F077013E1A88C11400AD9156 /* RRCVAdditions */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F077012D1A88BFD000AD9156 /* UIImage Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F077012E1A88BFD000AD9156 /* UIImage+NSStringAdditions.h */,
+				F077012F1A88BFD000AD9156 /* UIImage+NSStringAdditions.m */,
+				F07701301A88BFD000AD9156 /* UIImage+OpenCVAdditions.h */,
+				F07701311A88BFD000AD9156 /* UIImage+OpenCVAdditions.mm */,
+				F07701321A88BFD000AD9156 /* UIImage+RRDrawingAddition.h */,
+				F07701331A88BFD000AD9156 /* UIImage+RRDrawingAddition.m */,
+				F07701341A88BFD000AD9156 /* UIImage+RRTransformsAdditions.h */,
+				F07701351A88BFD000AD9156 /* UIImage+RRTransformsAdditions.m */,
+				F07701361A88BFD000AD9156 /* UIImage+UIColorAdditions.h */,
+				F07701371A88BFD000AD9156 /* UIImage+UIColorAdditions.m */,
+			);
+			path = "UIImage Additions";
+			sourceTree = "<group>";
+		};
+		F077013E1A88C11400AD9156 /* RRCVAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				F07701401A88C13A00AD9156 /* RRCVAdditions.hpp */,
+				F077013F1A88C13A00AD9156 /* RRCVAdditions.cpp */,
+			);
+			path = RRCVAdditions;
+			sourceTree = "<group>";
+		};
+		F09C71241A949E5600D1EDD8 /* DUS10 */ = {
+			isa = PBXGroup;
+			children = (
+				F09C71251A949E5600D1EDD8 /* DUS10.jpg */,
+				F09C71261A949E5600D1EDD8 /* DUS10.plist */,
+			);
+			path = DUS10;
+			sourceTree = "<group>";
+		};
+		F0A79A491A877A0800637F23 /* RRStripAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				F0A79A4A1A877A0800637F23 /* RRStripAnalyzer.h */,
+				F0A79A4B1A877A0800637F23 /* RRStripAnalyzer.mm */,
+				F0A79A4C1A877A0800637F23 /* RRStripAnalyzerTest.h */,
+				F0A79A4D1A877A0800637F23 /* RRStripAnalyzerTest.m */,
+			);
+			path = RRStripAnalyzer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0567C9D1A6D5B57002BA2E9 /* RRPeeAnalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0567CC11A6D5B57002BA2E9 /* Build configuration list for PBXNativeTarget "RRPeeAnalizer" */;
+			buildPhases = (
+				CBBBC39D11535C64BAD70BEA /* Check Pods Manifest.lock */,
+				F0567C9A1A6D5B57002BA2E9 /* Sources */,
+				F0567C9B1A6D5B57002BA2E9 /* Frameworks */,
+				F0567C9C1A6D5B57002BA2E9 /* Resources */,
+				2809022CA2BB77FA1386DED2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRPeeAnalizer;
+			productName = RRPeeAnalizer;
+			productReference = F0567C9E1A6D5B57002BA2E9 /* RRPeeAnalizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0567CB61A6D5B57002BA2E9 /* RRPeeAnalizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0567CC41A6D5B57002BA2E9 /* Build configuration list for PBXNativeTarget "RRPeeAnalizerTests" */;
+			buildPhases = (
+				325D2EE1A72F2BC890F4320C /* Check Pods Manifest.lock */,
+				F0567CB31A6D5B57002BA2E9 /* Sources */,
+				F0567CB41A6D5B57002BA2E9 /* Frameworks */,
+				F0567CB51A6D5B57002BA2E9 /* Resources */,
+				2D9B98E8FF7FE4C21773FAD3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0567CB91A6D5B57002BA2E9 /* PBXTargetDependency */,
+			);
+			name = RRPeeAnalizerTests;
+			productName = RRPeeAnalizerTests;
+			productReference = F0567CB71A6D5B57002BA2E9 /* RRPeeAnalizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0567C961A6D5B57002BA2E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rolandas Razma";
+				TargetAttributes = {
+					F0567C9D1A6D5B57002BA2E9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F0567CB61A6D5B57002BA2E9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F0567C9D1A6D5B57002BA2E9;
+					};
+				};
+			};
+			buildConfigurationList = F0567C991A6D5B57002BA2E9 /* Build configuration list for PBXProject "RRPeeAnalizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0567C951A6D5B57002BA2E9;
+			productRefGroup = F0567C9F1A6D5B57002BA2E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0567C9D1A6D5B57002BA2E9 /* RRPeeAnalizer */,
+				F0567CB61A6D5B57002BA2E9 /* RRPeeAnalizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0567C9C1A6D5B57002BA2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F069CB311A6FF7D5000CCE72 /* LaunchScreen.xib in Resources */,
+				F0C6BBE51A75A3A500800296 /* RRCaptureSessionStill.jpg in Resources */,
+				F09C71291A949E5600D1EDD8 /* DUS10.plist in Resources */,
+				F069CB321A6FF7D5000CCE72 /* Main.storyboard in Resources */,
+				F069CB331A6FF7D5000CCE72 /* Images.xcassets in Resources */,
+				F09C71271A949E5600D1EDD8 /* DUS10.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0567CB51A6D5B57002BA2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0320CE51A7FCACA008249E9 /* RRCaptureSessionStill.jpg in Resources */,
+				F09C71281A949E5600D1EDD8 /* DUS10.jpg in Resources */,
+				F09C712A1A949E5600D1EDD8 /* DUS10.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2809022CA2BB77FA1386DED2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D9B98E8FF7FE4C21773FAD3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		325D2EE1A72F2BC890F4320C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBBC39D11535C64BAD70BEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0567C9A1A6D5B57002BA2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF0EA01A86DE9D0059883D /* RRTestColorSetupViewController.m in Sources */,
+				F0658F171A84FAF40051D50D /* RRStripSetupViewController.m in Sources */,
+				F077013C1A88BFD000AD9156 /* UIImage+UIColorAdditions.m in Sources */,
+				F011849F1A73B7770027BAF7 /* RRCaptureSession.m in Sources */,
+				F0A79A4E1A877A0800637F23 /* RRStripAnalyzer.mm in Sources */,
+				F069CB301A6FF7D5000CCE72 /* RRAppDelegate.m in Sources */,
+				F07701381A88BFD000AD9156 /* UIImage+NSStringAdditions.m in Sources */,
+				F077013B1A88BFD000AD9156 /* UIImage+RRTransformsAdditions.m in Sources */,
+				F07701411A88C13A00AD9156 /* RRCVAdditions.cpp in Sources */,
+				F0A79A4F1A877A0800637F23 /* RRStripAnalyzerTest.m in Sources */,
+				F0567CA41A6D5B57002BA2E9 /* main.m in Sources */,
+				F07701391A88BFD000AD9156 /* UIImage+OpenCVAdditions.mm in Sources */,
+				F077013A1A88BFD000AD9156 /* UIImage+RRDrawingAddition.m in Sources */,
+				F069CB2F1A6FF7D5000CCE72 /* RRCaptureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0567CB31A6D5B57002BA2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07701421A88C13A00AD9156 /* RRCVAdditions.cpp in Sources */,
+				F0567CBE1A6D5B57002BA2E9 /* RRPeeAnalizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0567CB91A6D5B57002BA2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0567C9D1A6D5B57002BA2E9 /* RRPeeAnalizer */;
+			targetProxy = F0567CB81A6D5B57002BA2E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F069CB291A6FF7D5000CCE72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F069CB2A1A6FF7D5000CCE72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F069CB2B1A6FF7D5000CCE72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F069CB2C1A6FF7D5000CCE72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0567CBF1A6D5B57002BA2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0567CC01A6D5B57002BA2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0567CC21A6D5B57002BA2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1915FBDB2AFB7494F7AC8E05 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RRPeeAnalizer/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0567CC31A6D5B57002BA2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07FF7EF3FD2AAE62342AA1C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RRPeeAnalizer/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0567CC51A6D5B57002BA2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1915FBDB2AFB7494F7AC8E05 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RRPeeAnalizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRPeeAnalizer.app/RRPeeAnalizer";
+			};
+			name = Debug;
+		};
+		F0567CC61A6D5B57002BA2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07FF7EF3FD2AAE62342AA1C /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RRPeeAnalizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRPeeAnalizer.app/RRPeeAnalizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0567C991A6D5B57002BA2E9 /* Build configuration list for PBXProject "RRPeeAnalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0567CBF1A6D5B57002BA2E9 /* Debug */,
+				F0567CC01A6D5B57002BA2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0567CC11A6D5B57002BA2E9 /* Build configuration list for PBXNativeTarget "RRPeeAnalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0567CC21A6D5B57002BA2E9 /* Debug */,
+				F0567CC31A6D5B57002BA2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0567CC41A6D5B57002BA2E9 /* Build configuration list for PBXNativeTarget "RRPeeAnalizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0567CC51A6D5B57002BA2E9 /* Debug */,
+				F0567CC61A6D5B57002BA2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0567C961A6D5B57002BA2E9 /* Project object */;
+}

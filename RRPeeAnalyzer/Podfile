@@ -1,0 +1,10 @@
+# http://cocoapods.org/
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+link_with 'RRPeeAnalizer', 'RRPeeAnalizerTests'
+
+pod 'OpenCV'    # http://opencv.org
+pod 'Colours'   # https://github.com/bennyguitar/Colours
+pod 'FPPopover' # https://github.com/50pixels/FPPopover
