@@ -74,6 +74,8 @@ So how do we go from photo of test strip to values of Leukocytes, Nitrite, Urobi
 
 <img src="Images/RRCaptureSessionStillColorCompare.jpg" width="100%">
 
+You can find iOS application in <a href="master/RRPeeAnalyzer">/master/RRPeeAnalyzer</a>. Hopefully I will find some time to write about how it at some point...
+
 to be continued...
 
 ### Samples
